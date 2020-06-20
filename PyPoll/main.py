@@ -136,3 +136,6 @@ with open(election_data_csv, 'r') as csvdatafile:
     election_file.write("---------------------------- \n" +
                         f"Winner: {sort_candidates[0]} \n" +
                         "----------------------------")
+
+    # Close the text file
+    election_file.close()
