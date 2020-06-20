@@ -92,13 +92,13 @@ with open(budget_data_csv, 'r') as csvdatafile:
     '''  PRINT THE RESULTS AND STORE IN A TEXT FILE  '''
     ''' ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ '''
 
-    print("Financial Analysis")
-    print("--------------------------------------------------------")
-    print(f"Total Months: {total_months}")
-    print(f"Total: ${net_total:,d}")
-    print(f"Average Change: ${average_change:,.2f}")
-    print(f"Greatest Increase in Profits: {greatest_inc_month} (${greatest_inc:,d})")
-    print(f"Greatest Decrease in Profits: {greatest_dec_month} (${greatest_dec:,d})")
+    print("Financial Analysis \n" +
+          "-------------------------------------------------------- \n" +
+          f"Total Months: {total_months} \n" +
+          f"Total: ${net_total:,d} \n" +
+          f"Average Change: ${average_change:,.2f} \n" +
+          f"Greatest Increase in Profits: {greatest_inc_month} (${greatest_inc:,d}) \n" +
+          f"Greatest Decrease in Profits: {greatest_dec_month} (${greatest_dec:,d})")
 
     # Specify the file to write to
     output_path = os.path.join("Analysis", "financial_analysis.txt")
