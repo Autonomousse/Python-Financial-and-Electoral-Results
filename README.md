@@ -3,7 +3,7 @@ Analyzing financial and election data using Python.
 
 ## PyBank
 ### Goal
-The goal of the PyBank assignment is to take financial data in a CSV file and analyze it using Python. There are two columns labelled `Date`and `Profit/Losses` that respectfully hold the month/year and the profit/loss.
+The goal of the PyBank exercise is to take financial data in a CSV file and analyze it using Python. There are two columns labelled `Date`and `Profit/Losses` that respectfully hold the month/year and the profit/loss.
 
 The task involves creating a Python script that analyzes the data to calculate each of the following:
 
@@ -31,7 +31,7 @@ Greatest Decrease in Profits: Sep-2013 ($-2,196,167)
 ```
 ## PyPoll
 ### Goal
-The goal of the PyPoll assignment is similar in nature to the PyBank challenge above. We are given a CSV file with three columns labelled `Voter ID`, `County`, and `Candidate`. Create a Python script that analyzes the votes and calculates the following:
+The goal of the PyPoll exercise is similar in nature to the PyBank exercise above. We are given a CSV file with three columns labeled `Voter ID`, `County`, and `Candidate`. Create a Python script that analyzes the votes and calculates the following:
 
   - The total number of votes cast
 
