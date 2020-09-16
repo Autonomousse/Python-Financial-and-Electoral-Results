@@ -1,5 +1,4 @@
-# python-challenge
-Analyzing financial and election data using Python.
+# Python - Financial and Electoral Results
 
 ## PyBank
 ### Goal
